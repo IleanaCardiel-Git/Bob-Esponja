@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'texto';
+    src: url(../fonts/kiddos_2/KIdDOS-Regular.ttf);
+}
+@font-face {
+    font-family: 'todo';
+    src: url(../fonts/Espressonal.otf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #7EF1EA ;
+    color: #2D4084;
+    margin: 0;
+}
+label{
+    font-family: 'todo';
+    font-size: 20px;
+}
+.apartado{
+    width: 100%;
+    height: 800px;
+    margin: 0;
+    padding: 0;
+}
+.uno{
+    height: 800px;
+}
+#parte2{
+    width: 50%;
+    height: 800px;
+    margin: 0px auto;
+    float: right;
+    overflow: hidden;
+    position: absolute;
+}
+.tres{
+    background-color: #000;
+    background:url(https://i.pinimg.com/564x/ba/e1/87/bae187300957e4714e7b4b5fc74726d6.jpg)no-repeat center;
+    background-blend-mode: soft-light;
+    background-size: cover;
+    height: 700px;
+    text-align: center;
+    padding-top: 10px;
+}
+#vidrio{
+    padding: auto 3em;
+    width: 50%;
+    height: 500px;
+    margin: 8px auto;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.075);
+    box-shadow: 0 8px 32px 0px rgba(10, 52, 141, 0.493);
+    backdrop-filter: blur(4px);
+    border: 1px double rgba(31, 213, 245, 0.774); 
+}
+.datos{
+    animation: latir 1s ease infinite;
+
+}
+
+@keyframes latir {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}.boton:hover{
+    animation: 1s estirar 1;
+}
+@keyframes estirar{
+	30%{
+		-webkit-transform: 
+		        scaleX(1.25) scaleY(0.75);
+	}
+	50%{
+		-webkit-transform: 
+		        scaleX(0.75) scaleY(1.25);
+	}
+	60%{
+		-webkit-transform: 
+		        scaleX(1.15) scaleY(0.85);
+	}
+	
+}
+.boton{
+    background-color: rgba(228, 231, 44, 0.63);
+    color: #000;
+    border-radius: 8px;
+    font-size: 17px;
+    padding: 4px;
+    font-family:'todo';
+    font-weight: bold;
+    justify-content: center;
+}
+/* footer */
+footer{
+    background-color:bisque;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'todo';
+}
+.pie{
+    margin: 15px;
+}
+.redes{
+    justify-content: space-between;
+    text-align: center;
+    display: inline-block;
+    padding-left:40px ;
+    width: 23%;
+    line-height: .5px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+}
+.autor{
+    text-align: center;
+    margin: 25px;
+}
+
